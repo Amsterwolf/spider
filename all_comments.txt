@@ -1,0 +1,79 @@
+留爪留爪
+到此一游，并且留下我的评论供后来者爬取
+爬爬爬
+乌拉乌拉  球形猪！
+嘻嘻，留个爪爪！
+我就是想看看会不会留下IP
+好爱王老师！
+彭乐威牛逼
+Unable to locate element: iframe[title='livere']
+为什么我用的是源码能请求打开浏览器但是他不能定位到这个iframe？
+各路大神支支招！
+"isMobile": "0",
+            "isSecret": 0,
+            "isModified": 0,
+            "confirm": 0,
+            "subCount": 0,
+
+
+1072479416  2020.11.19 到此一游
+求助~用selenium模拟登录chrome显示“chrome正受到自动测试软件的控制”，浏览器版本V86
+鹤鹤子到此一游 呵呵 ^_^
+hhhhhh 踩踩
+太牛了啊你们
+我刘佳全球最美
+我钟丽诗宇宙无敌
+魏灏最厉害
+佳佳小怪兽可可爱
+2020.11.10 测试一下是否有用~~~
+网页结构都变了，这上面第四章代码不太管用了，感觉这个写的还蛮不错的，也是依据这本书的案例写的，实测可以运行，大家有兴趣可以看看。https://blog.csdn.net/weixin_43616817/article/details/109022479
+前来测试
+111
+livere已经改了，后来的小白同学可以在检查页面看一下
+from selenium import webdriver
+import time
+
+#获取webdriver对象，使用火狐浏览器
+firefox = webdriver.Firefox()
+firefox.implicitly_wait(30)
+firefox.get("http://www.santostang.com/2018/07/04/hello-world/")
+print('连接成功')
+
+#封装程序
+def get_comments(n,m):
+    
+    if n
+11
+offset现在找不到了，请问老师当这种下一页找不到规律的时候该怎么继续？
+测试中,关键点:   
+ comment_list=json_data['results']['parents']
+原来要梯子才能加载出评论zz
+测试路过
+有没有大佬看下，用书上P58-59代码怎么只爬取了第六页的评论
+爬虫...爬...
+hyui
+測試,路過
+dsfgvv44
+wwrerrrwr
+测试
+测试bug
+测试
+为何执行，button.click()，时，浏览器经常没有操作：
+from selenium import webdriver
+import time
+browser = webdriver.Firefox(executable_path = r'D:\Documents\geckodriver.exe') # geckodriver.exe设置在环境路径中
+browser.implicitly_wait(20) # 隐性等待，最长等20秒
+url = 'http://www.santostang.com/2018/07/04/hello-world/'
+browser.get(url)
+time.sleep(10)
+page = 5 #选择页码
+browser.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+browser.switch_to.frame(browser.find_element_by_css_selector("iframe[title='livere']"))
+button = browser.find_element_by_css_selector("button[data-page='{}']".format(page))
+button.click()
+time.sleep(2)
+browser.switch_to.parent_frame()
+print("点击了：data-page='{}'".format(page))
+r = requests.get(link, headers= headers)
+这句可以直接r = requests.get(link）吗？
+我加 headers= headers总是报错，要去掉才行。=  =不知道有没有关系
