@@ -2857,3 +2857,61 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1612682498835	Marionette	INFO	Listening on port 1697
 1612682498905	Marionette	WARN	TLS certificate errors will be ignored for this session
 1612682498991	Marionette	ERROR	[15] No reply from Marionette:Register
+1612710408256	geckodriver	INFO	Listening on 127.0.0.1:7324
+1612710411366	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\林\\AppData\\Local\\Temp\\rust_mozprofilec3y4qC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612710413931	Marionette	INFO	Listening on port 7339
+1612710414179	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612710414220	Marionette	ERROR	[18] No reply from Marionette:Register
+1612710452580	geckodriver	INFO	Listening on 127.0.0.1:7467
+1612710455662	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\林\\AppData\\Local\\Temp\\rust_mozprofileEdD8aS"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: chrome://browser/content/places/browserPlacesViews.js, line 131: Error: No DOM node set for aPlacesNode.
+node.type: 0. node.parent: [xpconnect wrapped nsINavHistoryResultNode]
+1612710458090	Marionette	INFO	Listening on port 7478
+JavaScript error: chrome://browser/content/places/browserPlacesViews.js, line 131: Error: No DOM node set for aPlacesNode.
+node.type: 0. node.parent: [xpconnect wrapped nsINavHistoryResultNode]
+1612710458472	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612710458509	Marionette	ERROR	[15] No reply from Marionette:Register
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+1612710519600	geckodriver	INFO	Listening on 127.0.0.1:7643
+1612710522657	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\林\\AppData\\Local\\Temp\\rust_mozprofilenQMdJb"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612710525399	Marionette	INFO	Listening on port 7653
+1612710525485	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612710525532	Marionette	ERROR	[15] No reply from Marionette:Register
+1612710546099	geckodriver	INFO	Listening on 127.0.0.1:7747
+1612710549153	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\林\\AppData\\Local\\Temp\\rust_mozprofilef3qzxJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612710551516	Marionette	INFO	Listening on port 7758
+1612710551957	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612710551992	Marionette	ERROR	[18] No reply from Marionette:Register
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+1612710585454	geckodriver	INFO	Listening on 127.0.0.1:7882
+1612710588508	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\林\\AppData\\Local\\Temp\\rust_mozprofileHerAvG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612710590909	Marionette	INFO	Listening on port 7892
+1612710591313	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612710591353	Marionette	ERROR	[15] No reply from Marionette:Register
+1612710861645	geckodriver	INFO	Listening on 127.0.0.1:8358
+1612710864684	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\林\\AppData\\Local\\Temp\\rust_mozprofilex9oeyB"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612710867358	Marionette	INFO	Listening on port 8370
+1612710867482	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612710867528	Marionette	ERROR	[15] No reply from Marionette:Register
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+1612710918205	geckodriver	INFO	Listening on 127.0.0.1:8559
+1612710921260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\林\\AppData\\Local\\Temp\\rust_mozprofile9RddAM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612710923787	Marionette	INFO	Listening on port 8571
+1612710924058	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612710924109	Marionette	ERROR	[18] No reply from Marionette:Register
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+1612710936602	Marionette	INFO	Stopped listening on port 8571
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

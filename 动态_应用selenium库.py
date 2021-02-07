@@ -1,8 +1,19 @@
 from selenium import webdriver
 import time
-driver=webdriver.Firefox(executable_path=r'C:\Users\林\Desktop\geckodriver.exe')
+
+#限制图片、css、JS加载
+options=webdriver.ChromeOptions()
+prefs={
+    'profile.default_content_setting_values':{
+        'images':2,
+        #'permissions.default.stylesheet':2,
+        #'javascript':2,
+    }
+}
+options.add_experimental_option('prefs',prefs)
+driver=webdriver.Chrome(executable_path=r'C:\Users\林\Desktop\chromedriver.exe',options=options)
 driver.get("http://www.santostang.com/2018/07/04/hello-world/")
-time.sleep(5)
+time.sleep(10)
 #print(driver.page_source)
 flag=1
 cot=1
