@@ -1,10 +1,5 @@
-import csv
-
-with open("atestcsv.csv",'r',encoding='utf-8') as f:
-    reader=csv.reader(f)
-    for row in reader:
-        with open("res.csv",'a+',encoding='utf-8',newline='') as fw:
-            writer=csv.writer(fw)
-            writer.writerow(row)
-
-
+import datetime
+origin='20:30'
+time=str(datetime.date.today())+' '+origin
+print(time)
+print(datetime.date.today())
