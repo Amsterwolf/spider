@@ -13,7 +13,8 @@ class MoneynewsSpider(scrapy.Spider):
     }
 
     def start_requests(self):
-        for i in range(1,2):
+        #爬取前十页
+        for i in range(1,11):
             url='http://finance.eastmoney.com/a/cywjh_'+str(i)+'.html'
             
             print("当前页面是：",url)
