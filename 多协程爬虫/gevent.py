@@ -12,7 +12,7 @@ def visit_website(q,index):
         pro_name="process_"+str(index)
         try:
             headers={
-                "user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
+                "user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
 
             }
             r=requests.get(url,headers=headers,timeout=3)
@@ -45,6 +45,7 @@ if __name__=='__main__':#防止子进程无限递归
         jobs.append(gevent.spawn(visit_website,(q,i+1)))
     gevent.joinall(jobs)
 
+    
     
 
     ed=time.time()
