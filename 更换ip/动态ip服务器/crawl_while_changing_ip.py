@@ -20,6 +20,6 @@ def crawl(url,try_times=3):
             a=Asdl()
             a.reconnect()
             return crawl(url,try_times-1)
-        else 
+        else:
             return None
     
