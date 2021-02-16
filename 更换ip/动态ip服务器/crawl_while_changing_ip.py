@@ -16,10 +16,10 @@ def crawl(url,try_times=3):
         return html
     except Exception as e:
         print(e)
-        html=None
         if try_times>0:
             a=Asdl()
             a.reconnect()
             return crawl(url,try_times-1)
-    
+        else 
+            return None
     
