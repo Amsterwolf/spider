@@ -1,7 +1,7 @@
 import requests
 import json
 import pymysql
-
+'''从百度地图api获取数据存入mysql'''
 #连接数据库
 db=pymysql.connect(host="127.0.0.2",user="root",password="123",database="baidumap")
 #创建光标
