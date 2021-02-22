@@ -151,8 +151,8 @@ def insert_to_table_parkinfo(uid_list):
             else:
                 command=f'''INSERT INTO baidumap.parkinfo (name, location_lat, location_lng, address, street_id, telephone, \
                 uid,tag,shop_hours,alias,detail_url,tpye,overall_rating,image_num,comment_num,content_tag,detail) 
-                VALUES ({name}, {location_lat}, {location_lng}, {address}, {street_id}, {telephone},{uid},{tag},\
-                {shop_hours},{alias},{detail_url},{tpye},{overall_rating},{image_num},{comment_num},{content_tag},{detail});'''
+                VALUES ('{name}', '{location_lat}', '{location_lng}', '{address}', '{street_id}', '{telephone}','{uid}','{tag}',\
+                '{shop_hours}','{alias}','{detail_url}','{tpye}','{overall_rating}','{image_num}','{comment_num}','{content_tag}','{detail}');'''
                 #print(command)
                 cursor.execute(command)
                 db.commit()
