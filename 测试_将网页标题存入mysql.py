@@ -3,7 +3,7 @@ from lxml import etree
 import pymysql
 
 #连接数据库scraping
-db=pymysql.connect(host="localhost",user="root",password="123",database="scraping")
+db=pymysql.connect(host="127.0.0.2",user="root",password="123",database="scraping")
 #创建光标
 cursor=db.cursor()
 
